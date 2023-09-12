@@ -1,0 +1,164 @@
+body {
+background-color: rgb(197, 235, 235);
+margin: 0 0 0 0;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "DM Mono";
+
+    box-sizing: border-box;
+    padding-top: 1rem;
+
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 300;
+    color: magenta;
+    margin-top: 0px;
+}
+a{
+    color: black;
+
+}
+a:hover{
+    color:blue;
+}
+
+span#quote{
+    font-family: "DM Mono";
+    font-style: italic;
+    font-weight: 100;
+    color: magenta;
+}
+
+button#add-meme{
+    background-color: rgba(255, 255, 255, 1.0);
+    border-radius: 10px;
+    font-size: larger;
+    box-shadow: 0px 5px 0px 0px cyan;
+    
+
+    font-family: "DM Mono";
+
+    margin-top: 15px;
+
+}
+
+
+button#add-meme:hover{
+    color: blue;
+    border-color: blue;
+    cursor: pointer;
+    
+}
+
+form#add-meme-form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+
+input{
+    margin-bottom: 10px;
+    width: 15rem;
+    height: 1.2rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    /* box-shadow: 0px 2px 0px 0px cyan; */
+
+    padding-left: 5px;
+
+}
+
+div#insert-memes{
+    background-color: white;
+    margin-top: 3rem;
+    min-height: 40vh;
+    width: 70vw;
+    border: 1px solid black;
+    border-radius: 25px;
+
+    box-shadow: 0px 5px 0px 0px black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+div.created-meme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: black;
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    padding: 0;
+    background-size:cover;
+    background-position: center;
+}
+
+/* div.created-meme:hover{
+    opacity: 0.1;
+} */
+
+div.created-meme h3 {
+    display: inline;
+    margin: 0;
+    font-size: x-large;
+    text-shadow: 0px 2px 0px orange;
+
+}
+
+div.created-meme h3.h3-top{
+    z-index: 7;
+    position: absolute;
+    top: 2px;
+
+}
+
+div.created-meme h3.h3-bottom{
+    z-index: 7;
+    position: absolute;
+    bottom: 2px;
+
+}
+
+div.delete-meme-hover {
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+div.delete-meme-hover h3 {
+    z-index: 10;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: none;
+    color: red;
+}

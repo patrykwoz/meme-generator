@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,800;1,9..40,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Meme Creator</h1>
+        <h2> <span id="quote"> Images of <a href="https://unsplash.com/s/photos/beaver">beavers</a> yield best results</span> - Mack Mackowsky</h2>
+        <form action="" id="add-meme-form">
+            <div>
+                <label for="image-url">Image URL</label>
+                <input type="url" placeholder="What's the URL of your image?" id="image-url" required>
+            </div>
+            <div>
+                <label for="text-top">Text on top</label>
+                <input type="text" id="text-top" placeholder="Add text for the top of your meme." required>
+            </div>
+            <div>
+                <label for="text-bottom">Text on bottom</label>
+                <input type="text" id="text-bottom" placeholder="Add text for the bottom of your meme." required>
+            </div>
+            <button id="add-meme">Add Meme</button>
+        </form>
+        <div id="insert-memes">
+            <div class="created-meme" style="width: 300px; height: 203.992px; background-image: url(&quot;https://images.unsplash.com/photo-1578762733612-dc14f2aee566?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1453&amp;q=80&quot;);"><h3 class="h3-top">Your Favorite</h3><h3 class="h3-bottom">Beaver Meme Sample</h3></div>
+
+
+
+
+        </div>
+    </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
